@@ -1,0 +1,81 @@
+/* عمومی اسٹائلز */
+
+body {
+    background-color: #121212;
+    /* ڈارک تھیم بیک گراؤنڈ */
+    color: #ffffff;
+    /* سفید متن */
+    font-family: 'Noto Nastaliq Urdu', serif;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    /* اردو کے لیے */
+}
+
+
+/* کنٹینر اسٹائل */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* ہیڈر اسٹائل */
+
+header {
+    border-bottom: 2px solid #f39c12;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #f39c12;
+    /* اورنج رنگ */
+    font-weight: bold;
+}
+
+
+/* تصاویر کا اسٹائل */
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+/* مین مواد کا اسٹائل */
+
+main p {
+    font-size: 1.4em;
+    line-height: 1.8;
+    font-weight: bold;
+}
+
+main ul {
+    list-style: none;
+    padding: 0;
+}
+
+main ul li {
+    background: #1e1e1e;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #f39c12;
+    font-weight: bold;
+}
+
+
+/* فوٹر اسٹائل */
+
+footer {
+    margin-top: 30px;
+    font-size: 0.8em;
+    color: #888888;
+}
